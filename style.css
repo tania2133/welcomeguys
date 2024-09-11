@@ -1,0 +1,548 @@
+*
+{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+section
+{
+    padding: 4.5rem 0 1.5rem;
+
+}
+header
+{
+    height: 12vh;
+  box-shadow: 1px 1px 1px 1px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    
+}
+#menu-icon
+{
+    
+    font-size: 2rem;
+    display: none;
+}
+.logo 
+{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo .bx
+{
+    color: brown;
+}
+.navbar
+{
+    display: flex;
+    gap: 2rem;
+}
+.navbar a
+{
+    color: black;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+.home
+{
+    margin: auto;
+    padding: auto;
+   
+    max-width: 95%;
+}
+.home-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,auto));
+    gap: 2rem;
+    
+}
+.box
+{
+    height: 70vh;
+  
+}
+.box1 img
+{
+    width: 100%;
+    height: 70vh;
+}
+.box h1
+{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.container2
+{
+    max-width: 90%;
+    margin: auto;
+    padding: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,auto));
+    margin-top: 2rem;
+    gap: 1rem;
+    border-radius: 30px;
+    background-color: purple;
+}
+.b 
+{
+    
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
+}
+.b img
+{
+    height: 10vh;
+}
+.heading
+{
+  
+    width: 80%;
+    height: 40vh;
+    
+}
+.heading h2
+{
+    font-size: 1.60rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+    margin-top: 1rem;
+}
+.heading p
+{
+    text-align: center;
+    color: white;
+}
+.about
+{
+    max-width: 95%;
+   
+    margin: auto;
+    padding: auto;
+
+}
+.head h3
+{
+    font-size: 3rem;
+    text-align: center;
+  
+}
+.head p
+{
+    text-align: center
+}
+.about-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(269px,auto));
+    gap: 1rem;
+    
+    margin-top: 2rem;
+}
+.box4
+{
+   
+    height: 60vh;
+    box-shadow: 1px 1px 1px 1px black;
+   
+}
+.image
+{
+    
+    height: 30vh;
+    background-image: url(images/tgh.avif);
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+.image1
+{
+    
+    height: 30vh;
+    background-image: url(images/tgh1.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+.image2
+{
+  
+    height: 30vh;
+    background-image: url(images/tgh2.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+.text1
+{
+   
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.60rem;
+    color: orange;
+    padding: 0.40rem;
+}
+.box4 p
+{
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.boxs .bx
+{
+    color: orange;
+    
+   
+}
+ 
+.boxs
+{
+    padding: 1rem;
+  
+}
+.btn 
+{
+    height: 7vh;
+    width: 45%;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 1rem;
+    color: white;
+    margin-left: 10rem;
+    outline: 2px solid white;
+}
+.classes
+{
+    max-width: 98%;
+    margin: auto;
+    padding: auto;
+    
+}
+.class-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap: 2rem;
+    margin-top: 2rem;
+   
+    background-color: rgb(133, 104, 69);
+}
+.b1 
+{
+    height: 60vh;
+   
+}
+.b1 img
+{
+    width: 100%;
+    height: 60vh;
+    z-index: 10000;
+    margin-top: 7rem;
+}
+.boxe
+{
+   
+}
+.boxe h1
+{
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+.boxe1 
+{
+    
+    display: flex;
+   
+}
+.boxe1 h2 img
+{
+    height: 10vh;
+    border-radius: 10px;
+    margin-top: 2rem;
+   
+}
+.boxe1 h3
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.container3
+{
+    max-width: 85%;
+  
+    margin: auto;
+    padding: auto;
+    margin-top: 7rem;
+}
+.heading1
+{
+    text-align: center;
+}
+.heading1 h1 
+{
+    font-size: 3rem;
+}
+.cont
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,auto));
+    gap: 1rem;
+  
+    margin-top: 1rem;
+}
+.b11
+{
+    height: 35vh;
+   box-shadow: 1px 1px 1px 1px rgb(102, 101, 101);
+    padding: 1rem;
+   
+}
+.text2
+{
+    display: flex;
+    
+}
+.text2 h2
+{
+    font-size: medium;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.text2 h2 span
+{
+    color: orange;
+    font-size: 10px;
+}
+
+.blog
+{
+    max-width: 95%;
+    margin: auto;
+    padding: auto;
+}
+.blog-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,auto));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.blog-container .image
+{
+    background-image: url(images/man.jpg);
+}
+.blog-container .image1
+{
+    background-image: url(images/man2.webp);
+}
+.contact
+{
+    max-width: 80%;
+   
+    margin: auto;
+    padding: auto;
+}
+
+.cont1
+{
+    height: 40vh;
+  
+    background-image: url(images/t2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont1 h1
+{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.cont1 p
+{
+    color: white;
+    text-align: center;
+}
+.cont2 
+{
+    max-width: 100%;
+    
+    margin: auto;
+    padding: auto;
+    background-color: bisque;
+}
+.cont-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,auto));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.b12,.b13,.b14,.b15
+{
+    height: 40vh;
+   
+}
+
+.b12 p
+{
+
+
+   margin-top: 2rem;
+}
+@media (max-width:850px)
+{
+    header
+    {
+        padding: auto;
+    }
+    
+    #menu-icon
+    {
+        display: initial;
+        font-size: 2rem;
+    }
+    .home-container
+    {
+        grid-template-columns: repeat(auto-fit,minmax(255px,auto));
+    }   
+    
+    .navbar
+    {
+        outline: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -110vh;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s all;
+       z-index: 10000;
+        padding: 1rem;
+        width: 100%;
+        right: 0;
+       
+        
+
+    }
+    .navbar a {
+        color: black;
+        
+    }
+    .about-container
+    {
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+      padding: auto;
+      margin: auto;
+    }
+    .navbar a:hover
+    {
+        color: yellow;
+    }
+    .navbar.active
+     {
+        top:15%;
+     }
+     .class-container
+     {
+        grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+        margin: auto;
+        padding: auto;
+     }
+     
+}
+@media (max-width:550px)
+{
+    .home
+    {
+        padding: auto;
+        margin: auto;
+    }
+    .box h1 
+    {
+        text-align: center;
+        font-size: 4rem;
+    }
+    .box
+    
+    {
+      
+       height: auto;
+      
+    }
+    .class-container
+    {
+        grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+        margin: auto;
+        padding: auto;
+    }
+    .boxe h1
+    {
+        text-align: center;
+       
+    }
+    .b1 img
+    {
+        margin-top: -3vh;
+    }
+    .cont1
+    {
+        width: 100%;
+
+    }
+    .cont1 h1
+    {
+        text-align: center;
+        font-size: larger;
+    }
+    .cont-container
+    {
+        grid-template-columns: repeat(auto-fit,minmax(258px,auto));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .cont2
+    {
+        margin: auto;
+        padding: auto;
+    }
+    .b12,.b13,.b14,.b15
+    {
+        height: auto;
+        text-align: center;
+    }
+    .heading h2,p
+    {
+        text-align: center;
+    }
+    .container2
+    {
+        margin: auto;
+        padding: auto;
+    }
+    .container2 .b
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
